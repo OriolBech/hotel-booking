@@ -1,0 +1,109 @@
+.container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.profile-quisom {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px 20px 10px;
+  width: 30%;
+  border-radius: 6px;
+  box-shadow: 0px 0px 18px 0px rgba(63, 63, 63, 0.308);
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.308);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.308);
+}
+
+.profile-quisom:hover {
+  -webkit-box-shadow: 0px 0px 17px -5px #000000; 
+  box-shadow: 0px 0px 17px -5px #000000;
+}
+
+.profile-quisom a {
+  color: #181D31;
+}
+
+
+.profile-img {
+  width: 100%;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 6px;
+
+}
+
+.profile-info {
+  padding: 10px;
+}
+
+.profile-info h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-info p {
+  padding: 5px 0px 5px 0px;
+}
+
+.profile-info h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+
+.profile-info ul, li {
+  display: flex;
+}
+
+.profile-info ul {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-info li {
+  align-items: center;
+  padding: 10px 0px 5px 0px;
+
+}
+
+.profile-info li img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.profile-info li:hover {
+  color: #678983;
+}
+
+@media all and (max-width: 600px) {
+
+  .container-one {
+    flex-direction: column;
+    width: 100%;
+    margin-left: -10px;
+  }
+    
+  
+  .profile-quisom {
+    width: 100%;
+  }
+
+  .profile-img {
+    width: 100%;
+  }
+  
+  .profile-img img { 
+    width: 100%;
+  }
+
+  .profile-info ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}

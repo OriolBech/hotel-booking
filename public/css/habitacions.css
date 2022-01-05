@@ -1,0 +1,155 @@
+
+  container {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-result {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  width: 70%;
+  margin: 20px 50px 10px 50px;
+  height: 300px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 18px 0px rgba(63, 63, 63, 0.308);
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.308);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.308);
+  }
+
+  .search-result:hover {
+    box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.75);
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.75);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(63,63,63,0.75);
+  }
+
+
+  .search-info p {
+    text-align: justify;
+  }
+
+  .search-result a {
+    color: #181D31;
+
+  }
+  
+  .search-box {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .search-box h2 {
+   margin: 5px;
+  
+  }
+
+  .search-serveis {
+      display: flex;
+      margin: 5px;
+
+  }
+
+
+  .search-serveis ul, li {
+      display: flex;
+      flex-direction: row;
+      margin-left: 5px;
+  }
+  
+  .search-info {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  }
+  
+  .search-info p {
+    margin-top: 5px;
+  }
+  
+  form {
+  padding: 5px;
+  }
+  
+  .search-button {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  }
+  
+  .search-button h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-right: 5px;
+  }
+  
+  .search-button p {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .search-img {
+  min-width: 30%;
+  max-width: 30%;
+  }
+  
+  .search-img img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  }
+  
+  
+  container {
+  display: flex;
+  flex-direction: column;
+  order: 3;
+
+  }
+
+
+@media all and (max-width: 600px) {
+
+  .search-result {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .search-result h2, .search-serveis {
+    visibility: hidden;
+  }
+
+  .search-img {
+    background-color: aqua;
+    display: flex;
+    max-width: 100%;
+
+  }
+
+  .search-img img {
+    align-items: center;
+
+  }
+
+  .search-info {
+    font-size: 23px;
+  }
+
+  .search-button {
+    margin-top: -40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+}

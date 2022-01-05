@@ -1,0 +1,28 @@
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/web/bg2.png");
+  background-color: #f0e9d2;
+}
+  
+a:link {
+  text-decoration: none;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+img {
+
+  object-fit: cover;
+
+}
