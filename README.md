@@ -1,6 +1,6 @@
 # Hotel Cendrassos
 
-Segon projecte del cicle superior de Desenvolupament d'Aplicacions Web a l'Institut Cendrassos.
+Projecte elaborat sense cap framework ni llibreria de composer. Segon projecte del cicle superior de Desenvolupament d'Aplicacions Web a l'Institut Cendrassos. Projecte realitzat sense cap framework ni llibreria de composer.
 
 ## Guia d'instalació 🚀
 
